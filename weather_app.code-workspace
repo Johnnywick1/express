@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"svgPreview.scaleToFit": false,
+		"workbench.colorTheme": "Monokai Pro"
+	}
+}
