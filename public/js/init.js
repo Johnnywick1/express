@@ -7,13 +7,13 @@ const setLanguage = () => {
         if (settings.lang === true) {
             return 'en-US';
         } else if (settings.lang === false) {
-            return 'ru';
+            return 'en-US';
         }
     } else {
         if (navigator.language.includes('en')) {
             return 'en-US';
         } else {
-            return 'ru';
+            return 'en-US';
         }
     }
 };
