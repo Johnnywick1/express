@@ -219,7 +219,7 @@ document.addEventListener('alpine:init', () => {
         editedCard: '',
         newLocation: null,
         inputValue: '',
-        inputFocus: false,
+        inputFocus: true,
         searchClearText: false,
         clearText: false,
         settingsChanged: false,
