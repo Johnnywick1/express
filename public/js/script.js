@@ -232,7 +232,7 @@ document.addEventListener('alpine:init', () => {
         modalResetSettings: false,
         modalClearLocations: false,
         settings: settings,
-        details: false,
+        details: true,
         userLocation: false,
         showUserLocationPlaceholder: settings.userGeo,
         displayMode: displayMode(),
