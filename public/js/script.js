@@ -879,14 +879,14 @@ function getUserLocation(update = false) {
     // console.log(navigator.geolocation);
     if (navigator.geolocation) {
         if (update) {
-            navigator.geolocation.getCurrentPosition(
+            navigator.geolocation.get(
                 userLocationSuccess =>
                     resolveAdress(userLocationSuccess, update),
                 showError,
                 options
             );
         } else {
-            navigator.geolocation.getCurrentPosition(
+            navigator.geolocation.get(
                 resolveAdress,
                 showError,
                 options
